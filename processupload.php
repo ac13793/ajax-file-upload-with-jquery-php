@@ -3,7 +3,8 @@
 if(isset($_FILES["FileInput"]) && $_FILES["FileInput"]["error"]== UPLOAD_ERR_OK)
 {
 	############ Edit settings ##############
-	$UploadDirectory	= 'E:/Servers/wamp64/www/ajax-file-upload-with-jquery-php/uploads/'; //specify upload directory ends with / (slash)
+	$UploadDirectory	= 'E:/Servers/wamp64/www/ajax-file-upload-with-jquery-php/uploads/'; 
+	//specify upload directory ends with / (slash)
 	##########################################
 	
 	/*
